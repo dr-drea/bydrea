@@ -21,12 +21,14 @@ h2  {
     color: white;
     }
 
+
 .who {
      border: 1px solid white ;
      background-image: url(images/IMG_5503.JPG);
      margin: 100px;
      background-position: 10px 130px;
      background-size: 15%;
+    
       }
 
  .paintings {
@@ -45,16 +47,20 @@ h2  {
 
 a {
     color: white;
+    opacity: 0;
+ 
 }
 
 a:link {
     color: white;
     text-decoration: none;
+    
 }
 
 a:hover {
     color: white;
     text-shadow: 4px 4px red;
+    opacity: 1;
     
 }
 
@@ -62,11 +68,14 @@ a:hover {
 
     img {
         width: 100%;
+        
     }
+
 
     h1 {
 
     font-size: auto;
+    opacity: 1;
     }
 
     
@@ -76,11 +85,13 @@ a:hover {
 
     img {
         width: 100%;
+        opacity: 1;
     }
 
     h1 {
 
     font-size: auto;
+    opacity: 1;
     }
 
     
