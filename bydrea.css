@@ -30,7 +30,6 @@ h2  {
      background-size: 15%;
     
       }
-<<<<<<< HEAD
 .paintings {
     background-image: url(images/painting.jpeg);
 
@@ -62,7 +61,6 @@ h2  {
     opacity: 1;
 }
 
-
  .digital-art {
       border: 1px solid white ;
       background-image: url(images/wallpaper.png);
@@ -71,7 +69,7 @@ h2  {
 
 a {
     color: white;
-    opacity: 0;
+    /* opacity: 0; */
  
 }
 
@@ -119,9 +117,4 @@ a:hover {
     }
 
     
-<<<<<<< HEAD
 }
-
-=======
-
->>>>>>> 757d6370b3feea4acdb8eff52c2129d4e44460c5
