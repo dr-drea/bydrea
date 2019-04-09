@@ -126,6 +126,8 @@ a:hover {
     margin: 100px;
     border: 5px solid white;
     background-color: #6C60DB;
+    padding-left: 10px;
+    padding-right: 10px;
  
 }
 
