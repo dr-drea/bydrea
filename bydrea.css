@@ -36,16 +36,40 @@ p {
 }
 
 .whopics {
-   max-width: 100px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center;
 }
 
 .paintingsize {
-    max-width: 100px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center;
 }
 
 .digpics {
-    max-width: 100px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center;
+
 }
+
+.digpics__photo {
+    width: 500px; 
+}
+
+.paintings__photo {
+    width: 500px;
+}
+
+.who_photos {
+    width: 500px;
+}
+
+
 
 .box {
      border: 1px solid white;
