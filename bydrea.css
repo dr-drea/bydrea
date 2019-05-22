@@ -1,8 +1,8 @@
 body {
     background-color:black;
     text-align: center;
-    font-family: 'Franklin Gothic Medium';
-    font-variant: small-caps;
+    font-family: 'Helvetica Neue';
+    font-variant-caps: all-small-caps;
 }
 
 h1 {
