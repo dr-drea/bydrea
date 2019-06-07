@@ -51,12 +51,16 @@ p {
     align-items: center;
 }
 
+.paintings_photo:hover {
+    content: url("../paintings/IMG_8552.png");
+    width: 100%;
+}
+
 .digpics {
     display: flex;
     flex-direction: column; 
     width: 100%;
     align-items: center;
-
 }
 
 .digpics__photo {
@@ -65,13 +69,22 @@ p {
 
 .paintings__photo {
     width: 500px;
+    align-items: center;
+}
+
+.lotta-art {
+    width: 500px;
+    align-content: center;
+    align-items: center;
+}
+
+.this {
+    width: 500px;
 }
 
 .who_photos {
     width: 500px;
 }
-
-
 
 .box {
      border: 1px solid white;
@@ -103,9 +116,7 @@ p {
       border: 1px solid white ;
       background-image: url(images/wallpaper.png);
       margin: 100px; 
-      }
-
-
+}
 a {
     color: white;
 }
@@ -131,6 +142,11 @@ a:hover {
  
 }
 
+@media (max-width: 2000px) {
+    img {
+        width:710px;
+    }
+}
 
 @media (max-width: 720px) {
     img {
