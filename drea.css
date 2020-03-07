@@ -1,5 +1,5 @@
 body {
-    background-color: #181818;
+    background-color: white;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
     font-variant-caps: all-small-caps;   
@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     text-shadow: 10px;
     font-style: oblique;
 }
@@ -19,13 +19,13 @@ hr {
     }
     
 h2  {
-    color: white;
+    color: black;
     text-shadow: 10px;
     font-style: oblique;
     }
 
 p {
-    color:white;
+    color: black;
 }
 
 .portraits {
@@ -64,7 +64,7 @@ p {
 }
 
 .paintings_photo:hover {
-    content: url("../paintings/IMG_8552.png");
+    content: url("../ALLART/IMG_8552.png");
     width: 100%;
 }
 
@@ -118,7 +118,7 @@ p {
     /* padding: 25px; */
     /* padding-left: 100px;
     padding-right: 100px; */
-    color: white;
+    color: black;
     font-weight: 500;
     /* opacity: 0; */
     transition: all .2s;
@@ -135,17 +135,17 @@ p {
       margin: 10px; 
 }
 a {
-    color: white;
+    color: black;
 }
 
 a:link {
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
-    text-shadow: 4px 4px red;
+    color: black;
+    text-shadow: 2px 2px rgb(41, 31, 175);
     opacity: 1;
 }
 
@@ -250,7 +250,7 @@ p {
     right: 0;
     height: 100vh;
     width: 20%;
-    background-image:  linear-gradient(to right, #B07133, #333EB0);
+    background-image:  linear-gradient(to right, rgb(255, 255, 255), #333EB0);
     opacity: 0; 
     visibility: hidden;
     transition: all .6s;
@@ -279,11 +279,10 @@ p {
 .nav__menu--item {
     margin-bottom: 20px;
     font-size: 17px;
-    color: white;
+    color: black;
     font-weight: 500;
     cursor: pointer;
     transition: all .2s;
-
 }
 
   .nav__icon:hover {
