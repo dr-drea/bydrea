@@ -301,3 +301,51 @@ p {
     z-index: 1;
   }
   
+
+
+
+  .art {
+    display: flex;
+    width: 100%:
+
+  }
+
+  @media (max-width: 600px) {
+    .art {
+        flex-direction: column;
+    }
+}
+
+
+  .art__column--one{
+      width: 100%;
+      padding:4rem  2rem 4rem 4rem ;
+  }
+
+  .art__column--two{
+    width: 100%;
+    padding:4rem 4rem 4rem  2rem;
+}
+
+
+  @media (max-width: 600px) {
+    .art__column--one {
+        padding: 0;
+
+    }
+    .art__column--two {
+        padding:0;
+    }    
+}
+
+  .art__piece {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 600px) {
+    .art__piece{
+        margin-bottom: 1rem;
+    }
+}
